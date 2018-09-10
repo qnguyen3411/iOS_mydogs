@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E3C9CD072146B5BD0010A506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9CD062146B5BD0010A506 /* AppDelegate.swift */; };
-		E3C9CD092146B5BD0010A506 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9CD082146B5BD0010A506 /* ViewController.swift */; };
+		E3C9CD092146B5BD0010A506 /* AddEditDeleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9CD082146B5BD0010A506 /* AddEditDeleteVC.swift */; };
 		E3C9CD0C2146B5BD0010A506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C9CD0A2146B5BD0010A506 /* Main.storyboard */; };
 		E3C9CD0F2146B5BD0010A506 /* iOS_mydogs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3C9CD0D2146B5BD0010A506 /* iOS_mydogs.xcdatamodeld */; };
 		E3C9CD112146B5BE0010A506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C9CD102146B5BE0010A506 /* Assets.xcassets */; };
 		E3C9CD142146B5BE0010A506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C9CD122146B5BE0010A506 /* LaunchScreen.storyboard */; };
 		E3C9CD1F2146B5BE0010A506 /* iOS_mydogsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9CD1E2146B5BE0010A506 /* iOS_mydogsTests.swift */; };
 		E3C9CD2A2146B5BE0010A506 /* iOS_mydogsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9CD292146B5BE0010A506 /* iOS_mydogsUITests.swift */; };
+		E3C9CD382146BF9F0010A506 /* droopy.gif in Resources */ = {isa = PBXBuildFile; fileRef = E3C9CD372146BF9F0010A506 /* droopy.gif */; };
+		E3C9CD3A2146F8330010A506 /* DogCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9CD392146F8330010A506 /* DogCollectionVC.swift */; };
+		E3C9CD3C2146F9130010A506 /* DogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9CD3B2146F9130010A506 /* DogCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* Begin PBXFileReference section */
 		E3C9CD032146B5BD0010A506 /* iOS_mydogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_mydogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C9CD062146B5BD0010A506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3C9CD082146B5BD0010A506 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3C9CD082146B5BD0010A506 /* AddEditDeleteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditDeleteVC.swift; sourceTree = "<group>"; };
 		E3C9CD0B2146B5BD0010A506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3C9CD0E2146B5BD0010A506 /* iOS_mydogs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_mydogs.xcdatamodel; sourceTree = "<group>"; };
 		E3C9CD102146B5BE0010A506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		E3C9CD252146B5BE0010A506 /* iOS_mydogsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_mydogsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C9CD292146B5BE0010A506 /* iOS_mydogsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_mydogsUITests.swift; sourceTree = "<group>"; };
 		E3C9CD2B2146B5BE0010A506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C9CD372146BF9F0010A506 /* droopy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = droopy.gif; sourceTree = "<group>"; };
+		E3C9CD392146F8330010A506 /* DogCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCollectionVC.swift; sourceTree = "<group>"; };
+		E3C9CD3B2146F9130010A506 /* DogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				E3C9CD062146B5BD0010A506 /* AppDelegate.swift */,
-				E3C9CD082146B5BD0010A506 /* ViewController.swift */,
+				E3C9CD082146B5BD0010A506 /* AddEditDeleteVC.swift */,
+				E3C9CD392146F8330010A506 /* DogCollectionVC.swift */,
+				E3C9CD3B2146F9130010A506 /* DogCell.swift */,
 				E3C9CD0A2146B5BD0010A506 /* Main.storyboard */,
 				E3C9CD102146B5BE0010A506 /* Assets.xcassets */,
+				E3C9CD372146BF9F0010A506 /* droopy.gif */,
 				E3C9CD122146B5BE0010A506 /* LaunchScreen.storyboard */,
 				E3C9CD152146B5BE0010A506 /* Info.plist */,
 				E3C9CD0D2146B5BD0010A506 /* iOS_mydogs.xcdatamodeld */,
@@ -234,6 +243,7 @@
 			files = (
 				E3C9CD142146B5BE0010A506 /* LaunchScreen.storyboard in Resources */,
 				E3C9CD112146B5BE0010A506 /* Assets.xcassets in Resources */,
+				E3C9CD382146BF9F0010A506 /* droopy.gif in Resources */,
 				E3C9CD0C2146B5BD0010A506 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3C9CD3A2146F8330010A506 /* DogCollectionVC.swift in Sources */,
 				E3C9CD0F2146B5BD0010A506 /* iOS_mydogs.xcdatamodeld in Sources */,
-				E3C9CD092146B5BD0010A506 /* ViewController.swift in Sources */,
+				E3C9CD092146B5BD0010A506 /* AddEditDeleteVC.swift in Sources */,
+				E3C9CD3C2146F9130010A506 /* DogCell.swift in Sources */,
 				E3C9CD072146B5BD0010A506 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,7 +453,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.qn.iOS-mydogs";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qn.ToDo-list";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,7 +471,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.qn.iOS-mydogs";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qn.ToDo-list";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
